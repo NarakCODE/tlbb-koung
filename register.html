@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/react/18.2.0/umd/react.production.min.js"
+		/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Register Page</title>
+		<link rel="stylesheet" href="./main.css" />
+	</head>
+	<body>
+		<!-- Background image -->
+		<img
+			src="./images/bg-wrapper-tintuc-tet-2015.jpg"
+			alt=""
+			class="bg-image"
+		/>
+
+		<!-- Navigation bar -->
+		<nav class="navbar">
+			<img src="./images/logo.png" alt="" class="logo" />
+			<ul class="navbar-list">
+				<li><a href="">Home</a></li>
+				<li><a href="/download-table.html">Download</a></li>
+				<li><a href="">Event</a></li>
+				<li><a href="">Handbook</a></li>
+				<li><a href="">Guide</a></li>
+				<li><a href="">Community</a></li>
+				<li><a href="">Version</a></li>
+				<li><a href="/account-table.html">Account</a></li>
+				<li><a href="/register.html">Register</a></li>
+				<li><a href="/login.html">Login</a></li>
+			</ul>
+		</nav>
+
+		<!-- Login form -->
+		<section class="form-container">
+			<!-- sidebar -->
+			<div class="sidebar">
+				<img src="./images/menu-aside.png" alt="" />
+			</div>
+
+			<!-- Form box -->
+			<div class="form">
+				<img
+					src="./images/bg-title-sukien.png"
+					alt=""
+					class="form-header-image"
+				/>
+				<div class="form-inner">
+					<div class="section_form">
+						<h2 class="form-title">Please Login your account</h2>
+						<form id="consultation-form" class="feed-form" action="#">
+							<!-- Username -->
+							<span>
+								<img src="./icons/user.svg" alt="" class="icon" />
+								<input name="username" required="" placeholder="Username" />
+							</span>
+							<!-- Email -->
+							<span>
+								<img src="./icons/mail.svg" alt="" class="icon" />
+								<input name="email" required="" placeholder="Email" />
+							</span>
+							<!-- Password -->
+							<span>
+								<img src="./icons/key.svg" alt="" class="icon" />
+								<input
+									name="password"
+									required=""
+									placeholder="Password"
+									type="password"
+								/>
+							</span>
+							<button class="button_submit">Login</button>
+						</form>
+
+						<div class="links">
+							<!-- Telegram -->
+							<span>
+								<img src="./icons/telegram.svg" alt="" />
+								<a href="#telegram">Telegram</a>
+							</span>
+							<!-- Facebook -->
+							<span>
+								<img src="./icons/facebook.svg" alt="" />
+								<a href="#facebook">Facebook</a>
+							</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</body>
+</html>
